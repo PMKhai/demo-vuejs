@@ -1,5 +1,6 @@
-export const path =  {
+export const path = {
   root: '/',
   home: '/home',
-  user: '/user'
+  user: '/user',
+  profile: '/profile'
 };

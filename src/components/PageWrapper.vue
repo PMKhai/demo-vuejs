@@ -2,18 +2,17 @@
   <div class="page-wrapper">
     <h1>{{ msg }}</h1>
     <router-link to="/home" class="router-link">Home</router-link>
-    <router-link to="/User" class="router-link">User</router-link>
-    <router-view/>
+    <router-link to="/user" class="router-link">User</router-link>
+    <router-view />
   </div>
 </template>
 
 <script>
-
 export default {
   name: "HelloWorld",
   props: {
     msg: String,
-  }
+  },
 };
 </script>
 
